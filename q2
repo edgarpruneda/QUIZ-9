@@ -1,0 +1,37 @@
+//Edgar Alonso Pruneda Calderón A01630674
+
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+
+long potencia (long a, long b)
+	{
+  long z;
+  z=pow((a),b);
+  return z;
+}
+
+
+
+int main()
+{
+  long a, b, z;
+ 
+ cout<<"Dame tu numero base "<<endl;
+  
+cin>>a;
+  
+cout<<"Dame la potencia a la que quieres que sea elevado"<<endl;
+  
+cin>>b;
+  
+z=potencia(a,b);
+  
+cout<<"La potencia es "<<z<<endl;
+
+  
+return 0;
+}
