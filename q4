@@ -1,0 +1,27 @@
+//Edgar Alonso Pruneda Calderon A01630674
+#include <iostream>
+#include <sstream>
+#include <stdio.h>
+#include "sstream"
+#include <algorithm>
+using namespace std;
+
+int main(){
+	string pali;
+	string T,stored;
+	cout<<"give me a word "<<endl;
+	cin >>T;
+	cout<<"please enter the word again "<<endl;
+  cin>> stored;
+	T= string(T.rbegin(), T.rend());
+	if (T == stored){
+		cout<<" true ";
+	}else {
+		cout<<" false ";
+	}
+
+
+
+	cout<<"the inverted word is "<<T;
+	return 0;
+}
